@@ -5,7 +5,8 @@
 #' @param value_name change name of value stored
 #' @author Soohyun Yoon
 #' @import dplyr
-#' @examples clean_data(maternal_mortality, "maternal_mortality")
+#' @examples
+#' clean_data(maternal_mortality, "maternal_mortality")
 #' @export
 #' @importFrom tidyr pivot_longer
 #' @importFrom dplyr mutate select
